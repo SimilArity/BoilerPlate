@@ -13,6 +13,7 @@ scroll-behavior: smooth;
 @import './variables';
 @import './mixin';
 @import './nav';
+@import './about';
 
 body {
     background-color: $primaryColor;
