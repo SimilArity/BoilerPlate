@@ -1,0 +1,35 @@
+nav {
+    height: 70px;
+    @include flexBetween();
+    font-size: 18px;
+    color: $secondaryColor;
+    font-family: Arvo;
+    background-color: $tertiaryColor;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 0 16px;
+    line-height: 30px;
+
+    ul {
+        visibility: visible;
+        display: flex;
+        list-style: none;
+
+        li {
+            height: 100%;
+            margin-right: 30px;
+            
+            a {
+                color: $secondaryColor;
+                text-decoration: none;
+                padding: 7px 14px;
+                border-radius: 4px;
+                
+                .active {
+                    color: $primaryColor;
+                }
+            }
+
+        }
+
+    }
+}
